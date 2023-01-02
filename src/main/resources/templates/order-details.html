@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Details</title>
+</head>
+<body>
+    <div>
+        <b>Order ID:</b><span data-th-text="${orderDetails.orderId}"></span>
+        <br>
+        <b>Customer ID:</b><span data-th-text="${orderDetails.customerId}"></span>
+        <br>
+        <b>Order Date:</b><span data-th-text="${orderDetails.orderDate}"></span>
+        <br>
+        <b>Total Price:</b><span data-th-text="${orderDetails.totalPrice}"></span>
+        <br>
+        <b>Discounted Price:</b><span data-th-text="${orderDetails.discountedPrice}"></span>
+        <br>
+        <b>Cost Price:</b><span data-th-text="${orderDetails.costPrice}"></span>
+    </div>
+</body>
+</html>
